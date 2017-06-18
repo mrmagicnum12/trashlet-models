@@ -15,7 +15,7 @@ let ServiceArea = new Schema({
 	zip: String,
 	city: String,
 	state: String,
-	serviceProvider: {type: Schema.Types.ObjectId, ref : 'ServiceProvider'}
+	serviceProvider: {type: Schema.Types.ObjectId, ref : 'ServiceProvider'},
 	dateAdded: {type: Date, default: Date.now}
 })
 
