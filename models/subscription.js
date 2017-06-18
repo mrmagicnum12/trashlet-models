@@ -9,11 +9,12 @@ let Location = new Schema({
 })
 
 let Subscription = new Schema({
-	user : {type: Schema.Types.ObjectId, ref: 'User'},
-	payment : {type: Schema.Types.ObjectId, ref: 'Payment'},
-	status : String,
-	location : Location,
-	start_date : {type: Date, default: Date.now},
+	user: {type: Schema.Types.ObjectId, ref: 'User'},
+	amount: String,
+	payment: {type: Schema.Types.ObjectId, ref: 'Payment'},
+	status: String,
+	location: Location,
+	start_date: {type: Date, default: Date.now},
 	end_date: {type: Date}
 })
 
