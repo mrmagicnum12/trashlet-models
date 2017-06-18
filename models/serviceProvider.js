@@ -24,4 +24,4 @@ let ServiceProvider = new Schema({
 	dateAdded: {type: Date, default: Date.now}
 })
 
-module.exports = ServiceArea = mongoose.model('ServiceProvider', ServiceProvider);
+module.exports = ServiceProvider = mongoose.model('ServiceProvider', ServiceProvider);
