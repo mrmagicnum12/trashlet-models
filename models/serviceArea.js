@@ -11,7 +11,7 @@ let Contact = new Schema({
 
 let ServiceArea = new Schema({
 	name: String,
-	contact: [Contact],
+	contact: Contact,
 	zip: String,
 	city: String,
 	state: String,

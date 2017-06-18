@@ -15,7 +15,7 @@ let Rating = new Schema({
 
 let ServiceProvider = new Schema({
 	name: String,
-	profile: [Profile],
+	profile: Profile,
 	rating: [Rating],
 	billRate: String,
 	zip: String,

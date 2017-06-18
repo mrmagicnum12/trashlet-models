@@ -10,7 +10,7 @@ let UserType = new Schema({
 let User = new Schema({
 	username : String,
 	password : String,
-	user_type : [UserType],
+	user_type : UserType,
 	register_date : {type: Date, default: Date.now}
 })
 
