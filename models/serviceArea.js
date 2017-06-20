@@ -16,6 +16,8 @@ let ServiceArea = new Schema({
 	city: String,
 	state: String,
 	pickUpDay: String,
+	putOutRate: {type: Number, default: 0},
+	putBackRate: {type: Number, default: 0},
 	serviceProvider: {type: Schema.Types.ObjectId, ref : 'ServiceProvider'},
 	dateAdded: {type: Date, default: Date.now}
 })
