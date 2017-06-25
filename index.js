@@ -6,6 +6,7 @@ var models = {
 	ServiceArea: require('./models/serviceArea'),
 	ServiceProvider: require('./models/serviceProvider'),
 	Payment: require('./models/payment'),
+	Service: require('./models/service')
 };
 
 module.exports = models;
