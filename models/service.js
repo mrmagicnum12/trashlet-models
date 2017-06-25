@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 
 let Service = new Schema({
 	subscription: {type: Schema.Types.ObjectId, ref : 'Subscription'},
-	serviceProvider: {type: Schema.Types.ObjectId, ref : 'ServiceProvider'}
+	serviceProvider: {type: Schema.Types.ObjectId, ref : 'ServiceProvider'},
 	type: String,
 	serviceDate : {type: Date, default: Date.now}
 })
