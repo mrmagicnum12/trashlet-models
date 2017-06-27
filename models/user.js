@@ -30,6 +30,7 @@ let User = new Schema({
 	password : String,
 	user_type : UserType,
 	contact : Contact,
+	status : {type : String, default: 'ACTIVE'},
 	we_pay : WePay,
 	register_date : {type: Date, default: Date.now}
 });
