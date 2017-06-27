@@ -11,7 +11,7 @@ let WePay = new Schema({
 	access_token: String,
 	accountId: String,
 	referenceId: String,
-	uri: String
+	verify_uri: String
 });
 
 let UserType = new Schema({
