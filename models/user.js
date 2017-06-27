@@ -10,7 +10,8 @@ let WePay = new Schema({
 	email: String,
 	access_token: String,
 	accountId: String,
-	referenceId: String
+	referenceId: String,
+	uri: String
 });
 
 let UserType = new Schema({
