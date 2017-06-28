@@ -20,7 +20,7 @@ let ServiceArea = new Schema({
 	putBackRate: {type: Number, default: 0},
 	imageUrl: String,
 	status: String,
-	serviceProvider: {type: Schema.Types.ObjectId, ref : 'ServiceProvider'},
+	serviceProvider: {type: Schema.Types.ObjectId, ref : 'User'},
 	dateAdded: {type: Date, default: Date.now}
 })
 
