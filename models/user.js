@@ -19,8 +19,8 @@ let UserType = new Schema({
 });
 
 let Contact = new Schema({
-	fname: String,
-	lname: String,
+	fName: String,
+	lName: String,
 	phone: String,
 	email: String,
 });
