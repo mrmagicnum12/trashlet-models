@@ -29,6 +29,7 @@ let User = new Schema({
 	username : {type: String, unique: true},
 	password : String,
 	user_type : UserType,
+	profile_url : String,
 	contact : Contact,
 	status : {type : String, default: 'ACTIVE'},
 	we_pay : WePay,
