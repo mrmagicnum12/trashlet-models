@@ -17,7 +17,7 @@ let Payment = new Schema({
 	paymentId : String,
 	user : {type : Schema.Types.ObjectId, ref : 'User'},
 	status : String,
-	cardInfo : [CardInfo]
+	cardInfo : CardInfo
 })
 
 module.exports = Payment = mongoose.model('Payment', Payment);
