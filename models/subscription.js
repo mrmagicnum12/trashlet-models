@@ -15,6 +15,7 @@ let Subscription = new Schema({
 	location: Location,
 	status: { type: String, default: 'ACTIVE'},
 	serviceArea: {type: Schema.Types.ObjectId, ref: 'ServiceArea'},
+	location_image: String,
 	start_date: {type: Date, default: Date.now},
 	end_date: {type: Date}
 })
