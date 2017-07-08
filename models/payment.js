@@ -6,7 +6,7 @@ const Schema = mongoose.Schema;
 let Payment = new Schema({
 	type : String,
 	paymentId : String,
-	user : {type : Schema.types.ObjectId, ref : 'User'},
+	user : {type : Schema.Types.ObjectId, ref : 'User'},
 	status : String
 })
 
