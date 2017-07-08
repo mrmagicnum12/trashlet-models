@@ -16,7 +16,7 @@ let Payment = new Schema({
 	type : String,
 	paymentId : String,
 	user : {type : Schema.Types.ObjectId, ref : 'User'},
-	status : String
+	status : String,
 	cardInfo : [CardInfo]
 })
 
